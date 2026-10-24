@@ -1,0 +1,13 @@
+{
+  "id": "org.tvchile.app",
+  "version": "1.0.0",
+  "vendor": "TV Chile",
+  "type": "web",
+  "main": "index.html",
+  "title": "TV Chile",
+  "icon": "icon.png",
+  "largeIcon": "icon.png",
+  "resolution": "1920x1080",
+  "disableBackHistoryAPI": true,
+  "requiredACG": []
+}

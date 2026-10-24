@@ -1,0 +1,21 @@
+{
+  "name": "tvchile-lg-webos",
+  "version": "1.0.0",
+  "description": "Aplicación de TV Abierta Chilena para LG Smart TV (webOS)",
+  "main": "index.html",
+  "scripts": {
+    "package": "npx @webos-tools/cli ares-package . -o .",
+    "install-app": "npx @webos-tools/cli ares-install -d LGTV TVChile.ipk",
+    "launch": "npx @webos-tools/cli ares-launch -d LGTV org.tvchile.app"
+  },
+  "keywords": [
+    "webos",
+    "lg",
+    "smart-tv",
+    "chile",
+    "iptv",
+    "fta"
+  ],
+  "author": "TV Chile",
+  "license": "MIT"
+}
